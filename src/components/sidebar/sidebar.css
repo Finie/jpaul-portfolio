@@ -17,11 +17,35 @@
     transform: translateX(0);  
 }
 
+.side-bar ul {
+    list-style: none;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-self: center;
+    align-items: flex-start;
+}
+
 .side-bar li {
     margin: 0.5rem 0;
+    cursor: pointer;
 }
 
 
+.side-bar li:hover {
+  color: #00A6C2;
+}
+
+
+.logo-holder{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem;
+}
+
+.side-nav-items > .active{
+    color: #00A6C2;
+}
 
 
 @media(min-width: 769px){

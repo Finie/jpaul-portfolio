@@ -13,7 +13,7 @@ function Sidebar(props){
     return(
         <nav className={sideBarClass}>
             <div className="logo-holder">Judie Paul</div>
-            <ul>
+            <ul className="side-nav-items">
                 <Link
                              activeClass="active"
                              spy={true}
@@ -52,7 +52,7 @@ function Sidebar(props){
                              smooth={true}
                              offset={0}
                              duration={1000}
-                             to='contsct'
+                             to='contact'
                              ><li>Contact</li></Link>
             </ul>
         </nav>
