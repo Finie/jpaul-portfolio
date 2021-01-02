@@ -5,7 +5,7 @@ import './response.css'
 function Response(){
     return(
         <div id="response" className="response-container">
-            <h1>Response</h1>
+            <h1>Clients Feedback</h1>
         </div>
     );
 }

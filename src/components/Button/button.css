@@ -1,0 +1,29 @@
+.button-container{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1.3rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    color: #00A6C2;
+}
+
+.button-container:hover{
+    color: white;
+    background: #00A6C2;
+}
+
+
+.button-container a{
+    text-decoration: none;
+    color: #00A6C2;
+}
+
+
+.button-container a:hover{
+    color: white;
+}

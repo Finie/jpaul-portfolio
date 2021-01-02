@@ -3,3 +3,14 @@
     width: 100%;
     background-color: white;
 }
+
+.project-holder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+
+

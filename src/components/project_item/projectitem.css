@@ -1,0 +1,86 @@
+.project-item-container{
+    max-width: 400px;
+    border: 1px solid #000000;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    border-radius: 1.2rem;
+    padding: 1.0rem;
+    margin: 1.5rem;
+    transition: transform 1.7s ease-out;
+    transition: box-shadow 0.7s ease-out;
+}
+
+.project-item-container:hover{
+    box-shadow: 2px 2px 15px 10px rgb(0,0,0,0.2);
+    transform: scale(1.02);
+    border: 1px solid #00A6C2;
+}
+
+.button-holder{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.button-spacer{
+    flex: 1;
+}
+
+
+.content-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.content-holder p{
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.content-holder a{
+    padding-top: 0.5rem;
+    color: #00A6C2;
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+.content-holder header{
+    font-size: 1.3rem;
+    color: #b0b0b0;
+    font-weight: bold;
+}
+
+.project-item-container {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
